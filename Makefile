@@ -6,7 +6,7 @@
 #    By: lcuellar <lcuellar@student42.madrid>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/14 13:42:03 by lcuellar          #+#    #+#              #
-#    Updated: 2023/09/16 21:36:14 by lcuellar         ###   ########.fr        #
+#    Updated: 2023/09/16 23:44:54 by lcuellar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,7 +47,16 @@ SRC = ft_memset.c		\
 		ft_putendl_fd.c	\
 		ft_putnbr_fd.c	
 
-SRCB =	$(SRC)
+SRCB =	$(SRC) \
+		ft_lstnew_bonus.c		\
+		ft_lstadd_front_bonus.c	\
+		ft_lstsize_bonus.c	\
+		ft_lstlast_bonus.c	\
+		ft_lstadd_back_bonus.c \
+		ft_lstdelone_bonus.c	\
+		ft_lstclear_bonus.c		\
+		ft_lstiter_bonus.c		\
+		ft_lstmap_bonus.c
 
 OBJ = ${SRC:.c=.o}
 
