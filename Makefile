@@ -6,7 +6,7 @@
 #    By: lcuellar <lcuellar@student42.madrid>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/14 13:42:03 by lcuellar          #+#    #+#              #
-#    Updated: 2023/09/14 16:09:03 by lcuellar         ###   ########.fr        #
+#    Updated: 2023/09/16 21:36:14 by lcuellar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,7 +34,18 @@ SRC = ft_memset.c		\
 		ft_strnstr.c	\
 		ft_atoi.c		\
 		ft_calloc.c		\
-		ft_strdup.c
+		ft_strdup.c		\
+		ft_substr.c		\
+		ft_strjoin.c	\
+		ft_strtrim.c 	\
+		ft_split.c		\
+		ft_itoa.c		\
+		ft_strmapi.c	\
+		ft_striteri.c	\
+		ft_putchar_fd.c	\
+		ft_putstr_fd.c	\
+		ft_putendl_fd.c	\
+		ft_putnbr_fd.c	
 
 SRCB =	$(SRC)
 

@@ -1,21 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lcuellar <lcuellar@student42.madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/13 15:19:34 by lcuellar          #+#    #+#             */
-/*   Updated: 2023/09/13 15:19:34 by lcuellar         ###   ########.fr       */
+/*   Created: 2023/09/16 20:07:12 by lcuellar          #+#    #+#             */
+/*   Updated: 2023/09/16 21:26:41 by lcuellar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include "libft.h"
 
-int main ()
+void	ft_putchar_fd(char c, int fd)
 {
-
- return 0;   
+	write(fd, &c, 1);
 }
